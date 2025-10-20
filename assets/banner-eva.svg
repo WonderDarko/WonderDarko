@@ -1,0 +1,47 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="evaGradient" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#7E2BD1"/>
+      <stop offset="100%" stop-color="#0A0A0B"/>
+    </linearGradient>
+    <linearGradient id="scanline" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.08)"/>
+    </linearGradient>
+    <style>
+      .title { font: 600 42px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A9FF00; letter-spacing: 2px }
+      .subtitle { font: 400 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #EAEAEA; opacity: .9 }
+      .tag { font: 500 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #0A0A0B }
+      .hud { fill: none; stroke: #A9FF00; stroke-width: 2; opacity: .75 }
+      .accent { fill: #FF5B00; }
+    </style>
+  </defs>
+  <rect width="1280" height="360" fill="url(#evaGradient)" />
+  <!-- HUD grid -->
+  <g opacity="0.25">
+    <path class="hud" d="M40 60 H1240 M40 120 H1240 M40 180 H1240 M40 240 H1240 M40 300 H1240"/>
+    <path class="hud" d="M160 20 V340 M320 20 V340 M480 20 V340 M640 20 V340 M800 20 V340 M960 20 V340 M1120 20 V340"/>
+  </g>
+  <!-- Angled EVA brackets -->
+  <path class="hud" d="M60 40 L120 80 L120 280 L60 320" />
+  <path class="hud" d="M1220 40 L1160 80 L1160 280 L1220 320" />
+  <!-- Title block -->
+  <g transform="translate(160,130)">
+    <text class="title">PROJECT INTERFACE // EVA-01</text>
+    <text class="subtitle" y="34">“God's in his heaven. All's right with the world.” — NERV // Systems Online</text>
+  </g>
+  <!-- Tags -->
+  <g transform="translate(160,200)">
+    <rect rx="6" width="120" height="28" fill="#A9FF00"/><text class="tag" x="12" y="19">FULL-STACK</text>
+    <rect x="140" rx="6" width="120" height="28" fill="#A9FF00"/><text class="tag" x="152" y="19">DEVOPS</text>
+    <rect x="280" rx="6" width="140" height="28" fill="#A9FF00"/><text class="tag" x="292" y="19">WAREHOUSE OPS</text>
+  </g>
+  <!-- Alert pill -->
+  <g transform="translate(1040,60)">
+    <rect class="accent" rx="8" width="180" height="32"/>
+    <text class="tag" x="16" y="21" fill="#0A0A0B">EMERGENCY / TYPE: HUMAN</text>
+  </g>
+  <!-- soft scanline overlay -->
+  <rect width="1280" height="360" fill="url(#scanline)" opacity="0.15"/>
+</svg>
