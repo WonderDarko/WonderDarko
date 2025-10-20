@@ -1,6 +1,16 @@
 <p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/banner-eva-classic.svg" />
+<source media="(prefers-color-scheme: light)" srcset="./assets/banner-emergency.svg" />
+<img src="./assets/banner-eva-classic.svg" alt="Evangelion HUD Banner" width="100%" />
+</picture>
+</p>
 
----
+
+<h3 align="center" style="color:#A9FF00; font-weight:800;">NERV OPS // EVA INTERFACE</h3>
+<p align="center">
+<sub style="color:#EAEAEA;">Systems Engineer / NERV OPS — Interface</sub>
+</p>
 
 ### STATUS // Synchronization
 
