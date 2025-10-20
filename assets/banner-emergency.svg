@@ -1,0 +1,65 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="emg" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#FF5B00"/>
+<stop offset="100%" stop-color="#111"/>
+</linearGradient>
+<linearGradient id="scan" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="rgba(255,255,255,0.10)"/>
+<stop offset="50%" stop-color="rgba(255,255,255,0)"/>
+<stop offset="100%" stop-color="rgba(255,255,255,0.10)"/>
+</linearGradient>
+<clipPath id="r">
+<rect x="0" y="0" width="1280" height="360" rx="16" ry="16"/>
+</clipPath>
+<style>
+.t { font: 800 44px 'Segoe UI', Ubuntu, Sans-Serif; fill: #111; letter-spacing: 1.5px }
+.s { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #111; opacity:.9 }
+.m { font: 700 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #111; letter-spacing: .5px }
+.hud { fill: none; stroke: #111; stroke-width: 2; opacity: .75 }
+.hud2 { fill: none; stroke: #111; stroke-width: 1; opacity: .35 }
+.pill { fill: #FFD000 }
+@keyframes sweep { 0% { transform: translateY(-360px) } 100% { transform: translateY(360px) } }
+</style>
+</defs>
+
+
+<g clip-path="url(#r)">
+<rect width="1280" height="360" fill="url(#emg)" />
+
+
+<g opacity="0.25">
+<path class="hud2" d="M40 60 H1240 M40 120 H1240 M40 180 H1240 M40 240 H1240 M40 300 H1240"/>
+<path class="hud2" d="M160 20 V340 M320 20 V340 M480 20 V340 M640 20 V340 M800 20 V340 M960 20 V340 M1120 20 V340"/>
+</g>
+
+
+<path class="hud" d="M60 40 L120 80 L120 280 L60 320" />
+<path class="hud" d="M1220 40 L1160 80 L1160 280 L1220 320" />
+
+
+<g transform="translate(48,48)">
+<rect rx="8" width="260" height="36" fill="#FFD000"/>
+<text class="m" x="12" y="23">EMERGENCY // NERV // WonderDarko</text>
+</g>
+
+
+<g transform="translate(180,132)">
+<text class="t">LUIS MONTIEL</text>
+<text class="s" y="30">Systems Engineer / NERV OPS — Interface</text>
+<text class="s" y="56">“God's in his heaven. All's right with the world.” — SEELE</text>
+</g>
+
+
+<g transform="translate(180,210)">
+<rect rx="6" width="190" height="28" fill="#FFD000"/><text class="m" x="12" y="19">SYSTEM ONLINE</text>
+<rect x="200" rx="6" width="180" height="28" fill="#FFD000"/><text class="m" x="212" y="19">SYNC RATE: 99.8%</text>
+<rect x="390" rx="6" width="220" height="28" fill="#FFD000"/><text class="m" x="402" y="19">OPERATOR: L-01 / WD</text>
+</g>
+
+
+<g style="opacity:.10; animation:sweep 4s linear infinite">
+<rect width="1280" height="360" fill="url(#scan)"/>
+</g>
+</g>
+</svg>

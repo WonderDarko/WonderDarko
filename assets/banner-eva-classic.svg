@@ -1,0 +1,86 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="evaGradient" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#7E2BD1"/>
+<stop offset="100%" stop-color="#0A0A0B"/>
+</linearGradient>
+<linearGradient id="scanline" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="rgba(255,255,255,0.10)"/>
+<stop offset="50%" stop-color="rgba(255,255,255,0)"/>
+<stop offset="100%" stop-color="rgba(255,255,255,0.10)"/>
+</linearGradient>
+<clipPath id="rounded">
+<rect x="0" y="0" width="1280" height="360" rx="16" ry="16"/>
+</clipPath>
+<style>
+.title { font: 700 44px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A9FF00; letter-spacing: 1.5px }
+.subtitle { font: 500 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #EAEAEA; opacity:.92 }
+.micro { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #0A0A0B; letter-spacing: .5px }
+.hud { fill: none; stroke: #A9FF00; stroke-width: 2; opacity: .75 }
+.hud-soft { fill: none; stroke: #A9FF00; stroke-width: 1; opacity: .35 }
+.accent { fill: #FF5B00; }
+.dot { fill:#A9FF00 }
+@keyframes blink { 50% { opacity:.15 } }
+@keyframes sweep { 0% { transform: translateY(-360px) } 100% { transform: translateY(360px) } }
+</style>
+</defs>
+
+
+<g clip-path="url(#rounded)">
+<rect width="1280" height="360" fill="url(#evaGradient)" />
+
+
+<!-- HUD grid -->
+<g opacity="0.25">
+<path class="hud-soft" d="M40 60 H1240 M40 120 H1240 M40 180 H1240 M40 240 H1240 M40 300 H1240"/>
+<path class="hud-soft" d="M160 20 V340 M320 20 V340 M480 20 V340 M640 20 V340 M800 20 V340 M960 20 V340 M1120 20 V340"/>
+</g>
+
+
+<!-- Angle brackets -->
+<path class="hud" d="M60 40 L120 80 L120 280 L60 320" />
+<path class="hud" d="M1220 40 L1160 80 L1160 280 L1220 320" />
+
+
+<!-- NERV seal / LM-01 -->
+<g transform="translate(48,48)">
+<rect rx="8" width="210" height="36" fill="#A9FF00"/>
+<text class="micro" x="12" y="23">NERV // LM-01 // WonderDarko</text>
+</g>
+
+
+<!-- Right alert pill -->
+<g transform="translate(1040,60)">
+<rect class="accent" rx="8" width="210" height="32"/>
+<text class="micro" x="16" y="21" fill="#0A0A0B">EMERGENCY / TYPE: HUMAN</text>
+</g>
+
+
+<!-- Title -->
+<g transform="translate(180,132)">
+<text class="title">LUIS MONTIEL</text>
+<text class="subtitle" y="30">Systems Engineer / NERV OPS — Interface</text>
+<text class="subtitle" y="56">“God's in his heaven. All's right with the world.” — SEELE</text>
+</g>
+
+
+<!-- Status chips -->
+<g transform="translate(180,210)">
+<rect rx="6" width="160" height="28" fill="#A9FF00"/><text class="micro" x="12" y="19">SYSTEM ONLINE</text>
+<rect x="176" rx="6" width="160" height="28" fill="#A9FF00"/><text class="micro" x="188" y="19">SYNC RATE: 99.8%</text>
+<rect x="352" rx="6" width="230" height="28" fill="#A9FF00"/><text class="micro" x="364" y="19">OPERATOR: L-01 / WD</text>
+</g>
+
+
+<!-- Blinking indicators -->
+<circle class="dot" cx="1180" cy="300" r="4" style="animation:blink 1.2s infinite"/>
+<circle class="dot" cx="1200" cy="300" r="4" style="animation:blink 1.2s .3s infinite"/>
+<circle class="dot" cx="1220" cy="300" r="4" style="animation:blink 1.2s .6s infinite"/>
+
+
+<!-- Moving scanline -->
+<g style="opacity:.12; animation:sweep 4s linear infinite">
+<rect width="1280" height="360" fill="url(#scanline)"/>
+</g>
+</g>
+</svg>
