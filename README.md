@@ -27,12 +27,17 @@ NERV OPS // EVA INTERFACE CONTROL
 <img src="https://img.shields.io/badge/Node.js-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=node.js&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/Express-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=express&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/Django-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=django&logoColor=A9FF00" />
-<img src="https://img.shields.io/badge/Laravel-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=laravel&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/Docker-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=docker&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/MySQL-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=mysql&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/React-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=react&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/Sequelize-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=sequelize&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/Linux-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=linux&logoColor=A9FF00" />
+[![](https://img.shields.io/badge/Python-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=python&logoColor=A9FF00)]()
+[![](https://img.shields.io/badge/FastAPI-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=fastapi&logoColor=A9FF00)]()
+[![](https://img.shields.io/badge/GitHub_Actions-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=githubactions&logoColor=A9FF00)]()
+[![](https://img.shields.io/badge/Socket.io-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=socketdotio&logoColor=A9FF00)]()
+[![](https://img.shields.io/badge/Pandas-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=pandas&logoColor=A9FF00)]()
+[![](https://img.shields.io/badge/Nginx-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=nginx&logoColor=A9FF00)]()
 </p>
 
 ---
@@ -43,9 +48,10 @@ NERV OPS // EVA INTERFACE CONTROL
 
 <p align="center" style="max-width:760px; margin:auto; color:#EAEAEA;">
 <b>LUIS MONTIEL (WonderDarko)</b><br/>
-Ingeniero de sistemas con especialización en <b>backend</b> y <b>DevOps</b>.  
-Diseño arquitecturas limpias, observables y reproducibles mediante <b>microservicios</b> y <b>contenedores</b>.<br/>
-Enfocado en mantener la integridad del sistema y la automatización operativa.
+Desarrollador de Software especializado en <b>backend</b>, <b>microservicios</b> y <b>DevOps</b>.<br/>
+Diseño e implemento arquitecturas con Node.js, Python y Docker — desde APIs REST<br/>
+y servicios de autenticación hasta procesamiento fiscal de XMLs y agentes de IA local.<br/>
+Enfocado en sistemas reproducibles, observables y desplegables de forma automática.
 </p>
 
 <p align="center" style="font-style:italic; color:#A9FF00;">
@@ -110,8 +116,9 @@ Enfocado en mantener la integridad del sistema y la automatización operativa.
 <h2 align="center" style="color:#A9FF00; font-weight:700;">CONTACT CHANNELS</h2>
 
 <p align="center">
-<a href="mailto:wonder.montiel@gmail.com" style="color:#A9FF00; text-decoration:none;">wonder.montiel@gmail.com</a><br/>
-<a href="https://github.com/WonderDarko" style="color:#A9FF00; text-decoration:none;">github.com/WonderDarko</a>
+<a href="mailto:wonder.montiel@gmail.com" style="color:#A9FF00; text-decoration:none;">wonder.montiel@gmail.com</a><br/><br/>
+<a href="https://www.linkedin.com/in/luis-montiel-b88541413/"><img src="https://img.shields.io/badge/LinkedIn-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=linkedin&logoColor=A9FF00" /></a>
+<a href="mailto:wonder.montiel@gmail.com"><img src="https://img.shields.io/badge/Gmail-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=gmail&logoColor=A9FF00" /></a>
 </p>
 
 ---
