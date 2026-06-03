@@ -32,12 +32,12 @@ NERV OPS // EVA INTERFACE CONTROL
 <img src="https://img.shields.io/badge/React-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=react&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/Sequelize-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=sequelize&logoColor=A9FF00" />
 <img src="https://img.shields.io/badge/Linux-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=linux&logoColor=A9FF00" />
-[![](https://img.shields.io/badge/Python-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=python&logoColor=A9FF00)]()
-[![](https://img.shields.io/badge/FastAPI-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=fastapi&logoColor=A9FF00)]()
-[![](https://img.shields.io/badge/GitHub_Actions-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=githubactions&logoColor=A9FF00)]()
-[![](https://img.shields.io/badge/Socket.io-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=socketdotio&logoColor=A9FF00)]()
-[![](https://img.shields.io/badge/Pandas-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=pandas&logoColor=A9FF00)]()
-[![](https://img.shields.io/badge/Nginx-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=nginx&logoColor=A9FF00)]()
+<img src="https://img.shields.io/badge/Python-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=python&logoColor=A9FF00" />
+<img src="https://img.shields.io/badge/FastAPI-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=fastapi&logoColor=A9FF00" />
+<img src="https://img.shields.io/badge/GitHub_Actions-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=githubactions&logoColor=A9FF00" />
+<img src="https://img.shields.io/badge/Socket.io-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=socketdotio&logoColor=A9FF00" />
+<img src="https://img.shields.io/badge/Pandas-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=pandas&logoColor=A9FF00" />
+<img src="https://img.shields.io/badge/Nginx-7E2BD1?style=for-the-badge&labelColor=1B1D23&logo=nginx&logoColor=A9FF00" />
 </p>
 
 ---
