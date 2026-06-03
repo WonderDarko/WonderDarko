@@ -134,3 +134,6 @@ Enfocado en sistemas reproducibles, observables y desplegables de forma automát
 > SYNC RATE: 99.8%
 > EVA UNIT: ONLINE
 > SYSTEM INTEGRITY: 100%
+```
+
+</details>
