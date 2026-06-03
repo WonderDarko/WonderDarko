@@ -78,7 +78,7 @@ Enfocado en sistemas reproducibles, observables y desplegables de forma automát
 <img src="https://github-readme-stats.vercel.app/api?username=WonderDarko&show_icons=true&bg_color=0,0A0A0B,1B1D23&title_color=A9FF00&text_color=EAEAEA&icon_color=A9FF00&hide_border=true" alt="Stats" />
 </p>
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=WonderDarko&background=0A0A0B&currStreakLabel=A9FF00&sideLabels=EAEAEA&sideNums=EAEAEA&dates=7E2BD1&fire=FF5B00&ring=A9FF00&currStreakNum=A9FF00&stroke=1B1D23" alt="Streak" />
+<img src="https://streak-stats.demolab.com?user=WonderDarko&background=0A0A0B&currStreakLabel=A9FF00&sideLabels=EAEAEA&sideNums=EAEAEA&dates=7E2BD1&fire=FF5B00&ring=A9FF00&currStreakNum=A9FF00&stroke=1B1D23" alt="Streak" />
 </p>
 
 ---
